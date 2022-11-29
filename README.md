@@ -9,11 +9,11 @@ Instalar e configurar a JDK 17;
 Instalar e configurar o Maven 3.8.6;
 Instalar o Chrome, última versão;
 Executar o Eclipse IDE e importar o projeto anexado utilizando a opção Maven -> Existing Maven Projects.
+
 Instruções para a execução do código-fonte:
 Incluir as URLs a serem avaliadas no arquivo "urls.csv" no diretório raiz do projeto, esse arquivo já está incluído junto ao código-fonte;
 Parametrizar a execução do robô por meio da classe "Parametro.java";
 Realizar o build do código-fonte utilizando a opção Run para baixar as dependências do projeto
-
 Executar o método " TesteCodigo.testeCodigo(Boolean.TRUE); " da classe "Principal.java" para iniciar o testes das URLs na ferramenta ASES;
 
 Ao fim da execução o resultado da avaliação realizada pelo ASES será gravado no arquivo "RESULTADO_ASES-TRT.csv".
